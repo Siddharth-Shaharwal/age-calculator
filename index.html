@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+    <div class="container">
+        <div class="date">
+            <label for="dob" class="label">Your Date of Birth</label>
+            <div class="section">
+                <input type="date" id="date1">
+                <img src="cal_logo.png" alt="logo" class="logo">
+            </div>
+            <label for="current" class="label">Today date</label>
+            <div class="section below">
+                <input type="date" id="date2">
+                <img src="cal_logo.png" alt="logo" class="logo">
+            </div>
+            <div id="age" class="age-box">
+
+            </div>
+            <button id="calculate">Calculate my age</button>
+        </div>
+        
+        <div class="other">
+            <p class="otherpara">Check other</p>
+
+            <div class="info3 some">
+                <img src="old.png" alt="img">
+                <p>How old am I today?</p>
+            </div>
+            <div id="ans3" class="answer"></div>
+
+            <div class="info2 some">
+                <img src="monday.png" alt="img">
+                <p>What day I was born?</p>
+            </div>
+            <div id="ans2" class="answer"></div>
+
+            <div class="info1 some">
+                <img src="24hours.png" alt="img">
+                <p>How many days are left for my next birthday?</p>
+            </div>
+            <div id="ans1" class="answer"></div>
+            
+            <div class="info4 some">
+                <img src="birthday-cake.png" alt="img">
+                <p>Which day will my next birthday fall on?</p>
+            </div>
+            <div id="ans4" class="answer"></div>
+
+            <div class="info6 some">
+                <img src="second.png" alt="img">
+                <p>How many seconds I lived?</p>
+            </div>
+            <div id="ans6" class="answer"></div>
+
+            <div class="info5 some">
+                <img src="complete.png" alt="img">
+                <p>How much percentage of life I completed?</p>
+            </div>
+            <div id="ans5" class="answer"></div>
+
+            <div class="info7 some">
+                <img src="group.png" alt="img">
+                <p>How many persons born to this particular date?</p>
+            </div>
+            <div id="ans7" class="answer"></div>
+
+            <div class="info8 some">
+                <img src="future.png" alt="img">
+                <p>My age on any future date?</p>
+            </div>
+
+            <div id="ans8" class="answer">
+                <input type="date" id="futureDate">
+                <button id="futureCalc">Calculate</button>
+                <p id="futureResult"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
